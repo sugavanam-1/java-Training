@@ -1,4 +1,4 @@
-package DAY1;
+
 
 public class Problem5 {
     

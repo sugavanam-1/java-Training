@@ -1,14 +1,17 @@
-import java.util.Scanner;
+public class Handling_string_functions {
+    static void main() {
+        String str1 ="hello world";
+        String str2 ="Hello";
+        String str3 ="this is string programming";
 
-public class PROBLEM1{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        String[] text = str3.split("i");
 
-        int year = sc.nextInt();
+        int itr;
+        for(itr=0;itr<text.length;itr+=1)
+            System.out.println(text[itr]);
 
-        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
-            System.out.println("Leap Year");
-        else
-            System.out.println("Not a Leap Year");
+
+
+
     }
 }
