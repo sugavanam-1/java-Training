@@ -1,3 +1,4 @@
+package Day24;
 import java.util.*;
 
 public class Main8 {
